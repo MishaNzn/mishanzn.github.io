@@ -24,7 +24,7 @@ body {
     width: 10%;
     padding-right: 30px;
     text-align: center;
-    font-size: 110%;
+    font-size: 90%;
 }
 #footer {
 	padding-top: 3px;
@@ -35,7 +35,7 @@ body {
 #table, td{
   border: 1px solid black;
   border-collapse: collapse;
-  padding: 7px;
+  padding: 10px;
   padding-left: 25px;
   padding-right: 25px;
   height: 75%;
@@ -46,10 +46,10 @@ table, th, td {
 }
 #content {
 	text-align: center;
-	margin-left: 200px;
+	margin-left: 225px;
 	width: 75%;
 	color: #000000;
-	font-size: 105%;
+	font-size: 100%;
 }
 h1, h2, h3 {
 	margin-top: 0;
