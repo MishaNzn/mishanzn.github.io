@@ -39,7 +39,7 @@ li.dropdown {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
   z-index: 1;
 }
 
@@ -51,7 +51,10 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f399f4;}
+.dropdown-content a:hover {
+  background-color: #f399f4;
+}
+
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -64,17 +67,17 @@ li.dropdown {
 <div id="header">
     <h1><b>Lienish Sovereign Republic</b></h1>
     <img src="lienish flag.png" alt="Lienish Flag" width=225 height=150 border=0>
-    <br>
-    <br>
+</div>
+<div id="links">
     <ul>
         <li class="dropdown">
-            <a href="http://lienia.com" class="dropbtn">Home</a>
+            <a href="http://lienia.com" class="dropbtn" style="color:white">Home</a>
         <li class="dropdown">
             <a href="lienishnews.html?query=Яндекс%20Облако%20Сервер&afdToken=ChMIpdzgw67P9QIV47OLCh2DQQ4TElPcHWC2B4g6toiLSRDR9de-c7f2sgr7ngOszafcaE9kEz0j8fdM7Hdrke-LNnsv_IkSZe-Ndg20qI7rpW7zlEwunbP2Q-lL5MY6rCPBzDoRLYBtAw&pcsa=false&nb=0&rurl=http%3A%2F%2Flienia.com%2F&nm=4&nx=497&ny=5&is=1230x934&clkt=14"
-               class="dropbtn">Lienish News</a>
+               class="dropbtn" style="color:white">Lienish News</a>
         </li>
         <li class="dropdown">
-            <a href="lienishgovernment.html" class="dropbtn">Lienish Government</a>
+            <a href="lienishgovernment.html" class="dropbtn" style="color:white">Lienish Government</a>
             <div class="dropdown-content">
                 <a href="lienishgovernment.html#lienishgdarames">Lienish Gdarames</a>
                 <a href="lienishgovernment.html#lienishpresident">Lienish President</a>
@@ -82,7 +85,7 @@ li.dropdown {
                 <a href="lienishgovernment.html#diplomaticpolicy">Lienish Diplomatic Policy</a>
             </div>
         <li class="dropdown">
-            <a href="lienishculture.html" class="dropbtn">Lienish Culture</a>
+            <a href="lienishculture.html" class="dropbtn" style="color:white">Lienish Culture</a>
             <div class="dropdown-content">
                 <a href="lienishculture.html#lienishfood">Lienish Cuisine</a>
                 <a href="lienishculture.html#lienishafetball">Lienish Afetball</a>
@@ -91,46 +94,54 @@ li.dropdown {
             </div>
         </li>
         <li class="dropdown">
-            <a href="lienishhistory.html" class="dropbtn">Lienish History</a>
+            <a href="lienishhistory.html" class="dropbtn" style="color:white">Lienish History</a>
             <div class="dropdown-content">
-                <a href="lienishhistory.html#republichwamba">Republic of Hwamba</a>
-                <a href="lienishhistory.html#creatingoflienia">Creating of Lienia</a>
-                <a href="lienishhistory.html#lieniatoday">Lienia Today</a>
+                <a href="lienishhistory.html#lienishbackgrund">Lienish Background</a>
+                <a href="lienishhistory.html#2021">2021</a>
+                <a href="lienishhistory.html#2022">2022</a>
                 <a href="lienishhistory.html#lienishtable">Lienish Chronological Table</a>
             </div>
         </li>
+        <li class="dropdown">
+            <a href="authorizing.html" class="dropbtn" style="color:white">Authorize as Citizen</a></li>
+        <li class="dropdown">
+            <a href="contactus.html" class="dropbtn" style="color:white">Contact Us</a></li>
     </ul>
-    <br>
 </div>
 <div id="content">
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <h1 style="text-align:left"><i><b>Culture of Lienia!</b></i></h1>
     <div id="lienishfood"><h3><i>Lienish Cuisine</i></h3>
-        <p>Our main national dish is "kotsoopkies" - it is small pancakes, which cooking from kefir, egg, flour, sugar,
-            butter and baking soda (we cook them sometimes - they are pretty good). Our next national dish will be a
-            potato buns (<i>this</i> we've not cooked yet) - it will be buns with smashed potato in its dough. It also
-            will be stuffed with mushrooms and cheese (in my opinion it will be pretty good).</p></div>
+        <p>Our main national dish is "kotsoopkies" - it is plump, small pancakes, which are cooking from kefir (it's a
+            drink from milk), egg, flour, sugar, butter and baking soda (we cook them sometimes - they are pretty good).
+            Our next national dish will be a mushroom potato buns (<i>this</i> we've not cooked yet) - it will be buns
+            with smashed potato in its dough. It also will be stuffed with mushrooms and cheese (in my opinion it will
+            be pretty good).</p></div>
+    <br>
     <div id="lienishafetball"><h3><i>Lienish Afetball</i></h3>
         <p>Lienia has its own sport - <i>afetball</i> (from Lienish "afeta" - to fly). It's like volleyball, but there
-            are 2 players, no net and oval field.</p></div>
+            are 2 players, no net and oval field. The field is divided on three zones. If player threw ball in first,
+            the closest zone he gets 1 score, if in second - 2 scores and if he threw ball in third zone, he gets 3
+            scores. If player <i>hit</i> the ball (not <i>caught and then threw</i>, but hit) back, he gets bonus +1
+            score to his next thrown. Match is going 30 minutes and divides on 3 times, 10 minutes each. At the end of
+            game wins that player who, of course, got more scores.</p></div>
+    <br>
     <div id="lienishclothes"><h3><i>Lienish Clothes</i></h3>
-        <p></p></div>
     <p>Lienish everyday clothes is simple: black or dark-blue jeans and thin sweater (climate in Lienia is little cold)
         predominantly sunny (yellow, orange, ocher etc.) colors. National, traditional Lienish clothes (unfortunately)
-        we haven't invented yet.</p>
+        we haven't invented yet.</p></div>
+    <br>
     <div id="lienishlanguage"><h3><i>Lienio Sperhe (Lienish Language)</i></h3>
-        <p>Lienia has its very own language - Lienish. It's history begun at 25th, October - it's the date, when our
-            President begun create book about Lienish language and begun translate our Constitution on Lienish. At 30th
-            of October he began create Lienish-Russian Dictionary. First book on Lienish he began translate at 5th
-            January 2022. It was "Harry Potter and the Sorcerer's Stone". You can press <a
-                    href="grammar_of_lienish_language_1.5.pdf" target="_blank">here</a>, to download <i>Full, Free and
-                Official</i> Lienish Grammar (version 1.5) on English and <a href="lienish_dictionary_1.5.pdf"
+        <p>Lienia has its very own language - Lienish. It's history begun at March-May 2021 - at these months President
+            begun create drafts of Lienish Constitution and anthem on his language - later he named it "pralienish".
+            History of modern Lienish begun at 25th October 2022 when President begun create book about Lienish language
+            and begun translate our Constitution on Lienish. At 30th of October he began create Lienish-Russian
+            Dictionary. First book on Lienish he began translate at 5th January 2022. It was "Harry Potter and the
+            Sorcerer's Stone". You can press <a
+                    href="grammar_of_lienish_language_1.9.pdf" target="_blank">here</a>, to download <i>Full, Free and
+                Official</i> Lienish Grammar (version 1.9) on English and <a href="lienish_dictionary_1.8.pdf"
                                                                              target="_blank">here</a> to
-            download <i>Full, Free and Official</i> Lienish-English Dictionary (version 1.5)!</p></div>
+            download <i>Full, Free and Official</i> Lienish-English Dictionary (version 1.8)!</p></div>
     <p>Back to Lienish <a href="http://lienia.com">main page</a>!</p>
 </div>
 <div id="footer">

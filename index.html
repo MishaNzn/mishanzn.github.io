@@ -14,11 +14,11 @@ ul {
   background-color: #a349a4;
 }
 
-li {
+links li {
   float: left;
 }
 
-li a, .dropbtn {
+links li a, .dropbtn {
   display: inline-block;
   color: white;
   text-align: center;
@@ -26,7 +26,7 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+links li a:hover, .dropdown:hover .dropbtn {
   background-color: #b359b4;
 }
 
@@ -39,7 +39,7 @@ li.dropdown {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
   z-index: 1;
 }
 
@@ -51,11 +51,16 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f399f4;}
+.dropdown-content a:hover {
+  background-color: #f399f4;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+
+
 
 
 
@@ -69,17 +74,17 @@ li.dropdown {
 <div id="header">
     <h1><b>Lienish Sovereign Republic</b></h1>
     <img src="lienish flag.png" alt="Lienish Flag" width=225 height=150 border=0>
-    <br>
-    <br>
+</div>
+<div id="links">
     <ul>
         <li class="dropdown">
-            <a href="http://lienia.com" class="dropbtn">Home</a>
+            <a href="http://lienia.com" class="dropbtn" style="color:white">Home</a>
         <li class="dropdown">
             <a href="lienishnews.html?query=Яндекс%20Облако%20Сервер&afdToken=ChMIpdzgw67P9QIV47OLCh2DQQ4TElPcHWC2B4g6toiLSRDR9de-c7f2sgr7ngOszafcaE9kEz0j8fdM7Hdrke-LNnsv_IkSZe-Ndg20qI7rpW7zlEwunbP2Q-lL5MY6rCPBzDoRLYBtAw&pcsa=false&nb=0&rurl=http%3A%2F%2Flienia.com%2F&nm=4&nx=497&ny=5&is=1230x934&clkt=14"
-               class="dropbtn">Lienish News</a>
+               class="dropbtn" style="color:white">Lienish News</a>
         </li>
         <li class="dropdown">
-            <a href="lienishgovernment.html" class="dropbtn">Lienish Government</a>
+            <a href="lienishgovernment.html" class="dropbtn" style="color:white">Lienish Government</a>
             <div class="dropdown-content">
                 <a href="lienishgovernment.html#lienishgdarames">Lienish Gdarames</a>
                 <a href="lienishgovernment.html#lienishpresident">Lienish President</a>
@@ -87,7 +92,7 @@ li.dropdown {
                 <a href="lienishgovernment.html#diplomaticpolicy">Lienish Diplomatic Policy</a>
             </div>
         <li class="dropdown">
-            <a href="lienishculture.html" class="dropbtn">Lienish Culture</a>
+            <a href="lienishculture.html" class="dropbtn" style="color:white">Lienish Culture</a>
             <div class="dropdown-content">
                 <a href="lienishculture.html#lienishfood">Lienish Cuisine</a>
                 <a href="lienishculture.html#lienishafetball">Lienish Afetball</a>
@@ -96,120 +101,166 @@ li.dropdown {
             </div>
         </li>
         <li class="dropdown">
-            <a href="lienishhistory.html" class="dropbtn">Lienish History</a>
+            <a href="lienishhistory.html" class="dropbtn" style="color:white">Lienish History</a>
             <div class="dropdown-content">
-                <a href="lienishhistory.html#republichwamba">Republic of Hwamba</a>
-                <a href="lienishhistory.html#creatingoflienia">Creating of Lienia</a>
-                <a href="lienishhistory.html#lieniatoday">Lienia Today</a>
+                <a href="lienishhistory.html#lienishbackgrund">Lienish Background</a>
+                <a href="lienishhistory.html#2021">2021</a>
+                <a href="lienishhistory.html#2022">2022</a>
                 <a href="lienishhistory.html#lienishtable">Lienish Chronological Table</a>
             </div>
         </li>
+        <li class="dropdown">
+            <a href="authorizing.html" class="dropbtn" style="color:white">Authorize as Citizen</a></li>
+        <li class="dropdown">
+            <a href="contactus.html" class="dropbtn" style="color:white">Contact Us</a></li>
+
     </ul>
-    <br>
-    <br>
 </div>
 <div id="sidebar">
     <br>
     <br>
     <br>
     <br>
+    <h1><b><i>Last News:</i></b></h1>
     <br>
+    <ul style="background-color:white; list-style-type:disc">
+        <li><div id="highlight">- 9.03 Lienia ended West Travel. And changed macronation.</div></li>
     <br>
+        <br>
+    <div id="highlight">
+        <li>- 24.02 Lienia begun its West Travel.</li></div>
     <br>
+        <br>
+    <div id="highlight">
+        <li>- 22.02 Lienia is independent for a month, and it wasn't and won't give up!</li></div>
     <br>
-    <h2><b><i>Last News:</i></b></h2>
+        <br>
+    <div id="highlight">
+        <li>- 19.02 <i>Lienish Game Studio™</i> begun develop first Lienish video game!</li></div>
     <br>
-    <p>- 22.02 Lienia is independent for a month, and it wasn't and won't give up!</p>
+        <br>
+    <div id="highlight">
+        <li>- 19.02 Happy Science Day, Lienia!</li></div>
     <br>
-    <p>- 19.02 <i>Lienish Game Studio™</i> begun develop first Lienish video game!</p>
-    <br>
-    <p>- 19.02 Happy Science Day, Lienia!</p>
-    <br>
-    <p>- 12.02 Lienia begun create its very own MicroWiki page!</p>
-    <br>
-    <p>- 29.01 Happy One Week of Independence, Lienia!</p>
-    <br>
+    </ul>
     <p><i>Look for all news <a
             href="lienishnews.html?query=Яндекс%20Облако%20Сервер&afdToken=ChMIpdzgw67P9QIV47OLCh2DQQ4TElPcHWC2B4g6toiLSRDR9de-c7f2sgr7ngOszafcaE9kEz0j8fdM7Hdrke-LNnsv_IkSZe-Ndg20qI7rpW7zlEwunbP2Q-lL5MY6rCPBzDoRLYBtAw&pcsa=false&nb=0&rurl=http%3A%2F%2Flienia.com%2F&nm=4&nx=497&ny=5&is=1230x934&clkt=14"
             title="Main Lienish news since 2022 year">here</a>!</i></p>
     <br>
     <br>
-    <h2><b><i>Here you can visit our<a href="https://micronations.wiki/Lienish_Sovereign_Republic" target="_blank">
-        MicroWiki page!</a></i></b></h2>
+    <h2><b><i>Here you can visit our <a href="https://micronations.wiki/Lienish_Sovereign_Republic"
+                                       target="_blank">MicroWiki page</a>!</i></b></h2>
+    <br>
+    <br>
 </div>
 <div id="content">
-    <br>
-    <br>
-    <br>
-    <br>
     <br>
     <h1 style="text-align:left"><i><b>Welcome to Lienia!</b></i></h1>
     <div>
         <h3><i>Lienia - what is that?</i></h3>
-        <p>Lienia <i>[li'e:niʌ]</i> (its full name is Lienish Sovereign Republic) - is a powerful and wealthy <a
-                href="https://micronations.wiki/wiki/Micronation"
-                title="Definition of word micronation by MicroWiki - micronational Wiki"
-                target="_blank">micronation.</a>
-            This is not a joke. Micronation is a <i>little and toy nation which has its own citizens, government and
-                culture but which has not been recognized as legitimate by the established countries of the world</i>.
-            Our
-            micronation has been created in 25th of October in 2021 year by Mikhail N, and it is actively growing each
-            day. Now Lienia has its own flag, citizens, language, Constitution and even its own video games and money!
-            Now we are working for beginning diplomatic relations with other micronations and creating our economy.</p>
+        <p>Lienia <i>[li'e:niʌ]</i> (its full name is Lienish Sovereign Republic) - is a powerful and
+            wealthy <a
+                    href="https://micronations.wiki/wiki/Micronation"
+                    title="Definition of word ″micronation″ by MicroWiki - micronational Wiki"
+                    target="_blank">micronation</a>.
+            This is not a joke. Micronation is a <i>little and "<i>toy</i>" nation which has its own citizens,
+                government and
+                culture but which has not been recognized as legitimate by the established countries of the
+                world</i>.
+            Our micronation has been created in 25th of October in 2021 year by Mićaöl Lienere, and it is
+            actively
+            growing each day. Now Lienia has its own flag, citizens, language, Constitution and even its own
+            video games
+            and money! Now we are working for beginning diplomatic relations with other micronations and
+            creating our
+            economy.</p>
     </div>
+    <br>
     <div>
         <h3><i>Are you a colony of any country?</i></h3>
-        <p>No! Like we told you earlier, we are a <i>micronation</i>. Micronation - it is like country, just small and
-            unofficial. There are many micronations in the world: Karno-Ruthenia, Sealand, Molossia, Aerican Empire,
-            Austenasia, Sasperian (and this is just one of the most powerful and popular of them - totally there are
-            around 600+ micronations in the world!) etc. They all have their own President or King, territory, citizens,
-            money and laws. We have all of it too. We also have something very important to every nation - it is
-            sovereignty. We are not a colony, dominion or part of any nation! We are the independence, sovereign and
+        <p>No! Like we told you earlier, we are a <i>micronation</i>. Micronation - it is like country, just
+            small and
+            unofficial. There are many micronations in the world: Karno-Ruthenia, Sealand, Molossia, Aerican
+            Empire,
+            Austenasia, Sasperian (and those are just ones of the most powerful and popular of them - totally
+            there are
+            around 600+ micronations in the world!) etc. They all have their own President or King,
+            territory, citizens,
+            money and laws. We have all of it too. We also have something very important to every nation -
+            it is
+            sovereignty. We are not a colony, dominion or part of any nation! We are the independence,
+            sovereign and
             growing with every second country.</p>
     </div>
+    <br>
     <div>
         <h3><i>Do you have any territories or citizens?</i></h3>
-        <p>Yes, of course - country without it is not a country. Now Lienia has 2,8 square meters (30.1 square feet)
-            of territory. Maybe it is not a lot of territories, but for micronations it is not bad. Plus one day it very
-            possibly we get a little land (around 1 Acr) and put Lienia there. Now about citizens. We already had 1 man
-            when Lienia was founded (me). Plus there are 4 people in December 2021 became citizens, and now we have 5
-            citizens - it is more, than Molossia has! Because of our little territory 5 citizens is our limit now, but
+        <p>Yes, of course - country without it is not a country. Now Lienia has 2,8 square meters (30.1
+            square feet)
+            of territory. Maybe it is not a lot of territories, but for micronations it is not bad. Plus one
+            day it very
+            possibly we get a little land (around 1 Acr) and put Lienia there. Now about citizens. We
+            already had 1 man
+            when Lienia was founded (me). Plus there are 4 people in December 2021 became citizens, and now
+            we have 5
+            citizens - it is more, than Molossia has! Because of our little territory 5 citizens is our
+            limit now, but
             if and when we settle in our future colonies, we think we can have more people.</p>
     </div>
+    <br>
     <div>
         <h3><i>What do you mean - "your future colonies"?</i></h3>
-        <p>Of course our territory is too little for 5 people, so we are working on putting Lienia in our colonies. <i>
-            If you don't know - colonies is a dependence from other countries lands.</i> We will not do any occupation -
-            we will do all plus-minus legal: buy a land about 2,000 square meters (21,400 square feet) - it's like 2
-            soccer fields - and put all our country in there. As plan B we have next thought: we will look on satellite
-            photos or swim in oceans to looking for a little islands in oceans which other countries has not taken. We
-            can also build islands <i>ourselves</i> from empty bottles and cover them with sand - some people like
-            Reishee Sowa have successfully done that. Now Sowa's island has a river, 2 beaches and washing machine. If
+        <p>Of course our territory is too little for 5 people, so we are working on putting Lienia in our
+            colonies. <i>
+                If you didn't know - colonies is a dependence from other countries lands.</i> We will not do
+            any occupation <i style="text-decoration:underline">like somebody</i> -
+            we will do all plus-minus legal: buy a land about 2,000 square meters (21,400 square feet) -
+            it's like 2
+            soccer fields - and put all our country in there. As plan B we have next thought: we will look
+            on satellite
+            photos or swim in oceans to looking for a little islands in oceans which other countries has not
+            taken. We
+            can also build islands <i>ourselves</i> from empty bottles and cover them with sand - some
+            people like
+            Reishee Sowa have successfully done that. Now Sowa's island has a river, 2 beaches and washing
+            machine. If
             he did it, so why we can't?</p>
     </div>
+    <br>
     <div>
         <h3><i>Is your country serious?</i></h3>
-        <p>Yes, of course it is! Don't be confused by word "micronation" - in our opinion micronations has same rights,
-            as real nations of the world! Maybe our nation hasn't constitution with a million of articles or atom bombs
-            and tanks, but we have all what we need to be country: independence, government, culture, laws, territory,
-            money, we even have language and citizens. If we have all of it (and this is the most important to every
-            country thing), so why we can't be a country?
+        <p>Yes, of course it is! Don't be confused by word "micronation" - in our opinion micronations has
+            same rights, as real nations of the world! Maybe our nation hasn't constitution with a million of articles
+            or atom bombs and tanks, but we have all what we need to be country: independence, government, culture,
+            laws, territory, money, we even have real invented language and citizens, who are living on our territory.
+            If we have all of it (and this is the most important to every country things), so why we can't be a country?
+            Micronations around whole world claims sovereignty and independence - if they can parody real countries (and
+            some of them doing it really well indeed), so we too!
         </p>
     </div>
+    <br>
     <div>
         <h3><i>Can I become a citizen of Lienia?</i></h3>
-        <p>We are deeply sorry, but no. Lienia has very little territory - 2,8² meters (it is like a blanket!). We
-            already have 5 citizens; if we divide our lands, every citizen will get 0,5 square metres of land - imagine!
-            But we are thinking about where whe can make colonies (some variants - islands in Pacific Ocean, Mary Byrd
-            Land, Bir Tawil etc.) and make Lienish towns and cities, so, I don't know - maybe one day in a future...
+        <p>We are deeply sorry, but chance of your becoming Lienish citizen is unbelievably, ultimatively small. Lienia
+            has very little territory - 2,8² meters (it is like a blanket!). We already have 5 citizens; if we divide
+            our lands, every citizen will get 0,5 square metres of land - imagine! Because of it, Lienish government has
+            to give citizenship very accurately, choosing only from people checked by President & Co. But we are
+            thinking a bout where whe can make colonies (some variants - islands in Pacific Ocean, Mary Byrd Land, Bir
+            Tawil etc.) and make Lienish towns and cities and make getting of citizenship more simple, so, I don't know
+            - maybe one day in a future...
         </p>
     </div>
+    <br>
     <div>
         <h3><i>What if I have a micronation, and I want to begin diplomatic relations with Lienia?</i></h3>
-        <p>It is simple - just read our <a href="lienishgovernment.html#diplomaticpolicy">diplomatic policy</a> and then
-            mail to our Minister of Foreign Affairs <a href="mailto:nie.misha.ua@gmail.com">here</a>. We will be pretty
-            happy if we make relations with another micronations. In your letter please specify name of your country,
-            its political system and website (if you have one). If you violate our diplomatic policy, we end our
+        <p>It is simple - just read our <a href="lienishgovernment.html#diplomaticpolicy">diplomatic
+            policy</a> and then
+            mail to our Minister of Foreign Affairs in <a href="contactus.html">Contact Us</a> page. We
+            will be pretty
+            happy if we make relations with another micronations. In your letter please specify name of your
+            country,
+            its political system and website (if you have one). If you violate our diplomatic policy, we end
+            our
             relations.
         </p>
     </div>

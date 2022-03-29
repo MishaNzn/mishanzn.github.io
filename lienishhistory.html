@@ -39,7 +39,7 @@ li.dropdown {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
   z-index: 1;
 }
 
@@ -51,7 +51,10 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f399f4;}
+.dropdown-content a:hover {
+  background-color: #f399f4;
+}
+
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -65,17 +68,17 @@ li.dropdown {
 <div id="header">
     <h1><b>Lienish Sovereign Republic</b></h1>
     <img src="lienish flag.png" alt="Lienish Flag" width=225 height=150 border=0>
-    <br>
-    <br>
+</div>
+<div id="links">
     <ul>
         <li class="dropdown">
-            <a href="http://lienia.com" class="dropbtn">Home</a>
+            <a href="http://lienia.com" class="dropbtn" style="color:white">Home</a>
         <li class="dropdown">
             <a href="lienishnews.html?query=Яндекс%20Облако%20Сервер&afdToken=ChMIpdzgw67P9QIV47OLCh2DQQ4TElPcHWC2B4g6toiLSRDR9de-c7f2sgr7ngOszafcaE9kEz0j8fdM7Hdrke-LNnsv_IkSZe-Ndg20qI7rpW7zlEwunbP2Q-lL5MY6rCPBzDoRLYBtAw&pcsa=false&nb=0&rurl=http%3A%2F%2Flienia.com%2F&nm=4&nx=497&ny=5&is=1230x934&clkt=14"
-               class="dropbtn">Lienish News</a>
+               class="dropbtn" style="color:white">Lienish News</a>
         </li>
         <li class="dropdown">
-            <a href="lienishgovernment.html" class="dropbtn">Lienish Government</a>
+            <a href="lienishgovernment.html" class="dropbtn" style="color:white">Lienish Government</a>
             <div class="dropdown-content">
                 <a href="lienishgovernment.html#lienishgdarames">Lienish Gdarames</a>
                 <a href="lienishgovernment.html#lienishpresident">Lienish President</a>
@@ -83,7 +86,7 @@ li.dropdown {
                 <a href="lienishgovernment.html#diplomaticpolicy">Lienish Diplomatic Policy</a>
             </div>
         <li class="dropdown">
-            <a href="lienishculture.html" class="dropbtn">Lienish Culture</a>
+            <a href="lienishculture.html" class="dropbtn" style="color:white">Lienish Culture</a>
             <div class="dropdown-content">
                 <a href="lienishculture.html#lienishfood">Lienish Cuisine</a>
                 <a href="lienishculture.html#lienishafetball">Lienish Afetball</a>
@@ -92,50 +95,58 @@ li.dropdown {
             </div>
         </li>
         <li class="dropdown">
-            <a href="lienishhistory.html" class="dropbtn">Lienish History</a>
+            <a href="lienishhistory.html" class="dropbtn" style="color:white">Lienish History</a>
             <div class="dropdown-content">
-                <a href="lienishhistory.html#republichwamba">Republic of Hwamba</a>
-                <a href="lienishhistory.html#creatingoflienia">Creating of Lienia</a>
-                <a href="lienishhistory.html#lieniatoday">Lienia Today</a>
+                <a href="lienishhistory.html#lienishbackgrund">Lienish Background</a>
+                <a href="lienishhistory.html#2021">2021</a>
+                <a href="lienishhistory.html#2022">2022</a>
                 <a href="lienishhistory.html#lienishtable">Lienish Chronological Table</a>
             </div>
         </li>
+        <li class="dropdown">
+            <a href="authorizing.html" class="dropbtn" style="color:white">Authorize as Citizen</a></li>
+        <li class="dropdown">
+            <a href="contactus.html" class="dropbtn" style="color:white">Contact Us</a></li>
     </ul>
-    <br>
 </div>
 <div id="content">
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <h1 style="text-align:left"><i><b>History of Lienia!</b></i></h1>
-    <div id="republichwamba">
-        <h3><i>Republic of Hwamba</i></h3>
-        <p>Campaign of creating our micronation begun on 26th of November in 2019 year. It was the birthday of our
-            President, Mikhail N. His Mom's friend granted him a book How to Build Your Own Country by Valery
+    <div id="lienishbackground">
+        <h3><i>Lienish Background</i></h3>
+        <p>Campaign of creating our micronation begun on 26th of November in 2019 year. It was 10th birthday of our
+            President, Mićaöl Lienere. His Mom's friend granted him a book How to Build Your Own Country by Valery
             Wyatt. This book was about micronations and how create them. First attempt of creating micronation was on
             4th of December in 2019 year. That micronation's name was Hwamba. Unfortunately, Hwamba was very weak and
-            simple nation. It didn't have any money, constitution and laws. Only a president and some territories.</p>
-    </div>
-    <div id="creatingoflienia">
-        <h3><i>Creating of Lienia</i></h3>
-        <p>Unfortunately Hwamba's destiny was sad - it has stopped its existence after year of functioning because of
+            simple nation. It didn't have any money, constitution and laws. Only a president and some territories.
+            Unfortunately Hwamba's destiny was sad - it has stopped its existence after year of functioning because of
             lack of government's control (but micronations often become weak or die because of this reason). Then
-            Mikhail realized, what he needs to create first of all idea of country (like its constitution, flag and
-            culture), and <i>just after this </i> create country. His country name was Lienia (full - Lienish Sovereign
-            Republic). He didn't hurry with creating of Lienia. He remembered the Hwambian experience, so first, he
-            created all government etc., and just then created Lienia. Actually, Lienia become independent in 22nd of
-            January in 2022, but its constitution was written three months earlier!</p>
+            Mićaöl realized, what he needs to create first of all idea of country (like its constitution, flag and
+            culture), and <i>just after this </i> create country.</p>
     </div>
-    <div id="lieniatoday">
-        <h3><i>Lienia Today</i></h3>
-        <p>Now Lienia became wealth and powerful (well, not <i>so</i> wealth and powerful). We made our article in
-            Microwiki - Wiki of micronations (link on our article is on main page). <i>Lienish Game Studio™</i> is
-            developing first Lienish video game - horror <i>"Sleep Well"</i>. Soon we'll buy some lands for
-            Lienia. We also soon open diplomatic relations with Aerican Empire, and, very possibly, with some another
-            micronations. Soon we'll begin develop our economy, and Lienia will be more wealth, than now.</p>
+    <br>
+    <div id="2021">
+        <h3><i>2021</i></h3>
+        <p>Mićaöl didn't hurry with creating of Lienia. He remembered the Hwambian experience, so first, he
+            created basic government and culture etc., and just then created Lienia. Actually, Lienia become independent
+            in 22nd of January in 2022, but its constitution was written three months earlier! 2021 year was very
+            important year of Lienish history - it was year, when (almost) all Lienish ideas and projects became true -
+            constitution, web-page, currency etc. The only main date of 2021 is 25 October - date of Lienish founding,
+            when President wrote constitution, act of independence, drew flag and invented language. That period of
+            Lienish history ended at 24th February 2022.</p>
     </div>
+    <br>
+    <div id="2022">
+        <h3><i>2022</i></h3>
+        <p>With beginning of Ukrainian-Russian war at 24th February Lienia left Ukraine. This period also known as West
+                Travel. President and Prime Minister were big heroes - they took Lienia, its documents and currency
+                with them, in Travel. West Travel ended at 3rd March 2022 with arriving Lienia in Germany. (<i>
+                President had a sad joke, what from now Lienish history will become more interesting</i>). When Lienia
+                arrived Germany (it is also known as "Changing of Macronation"), it woke up of short (1 week) period of
+                inactivity, which has begun (and ended) with West Travel. It recovered from Travel at 9th March and
+                begun new Era of Lienish history.</p>
+    </div>
+    <br>
     <div id="lienishtable">
         <h3><i>Chronological Table</i></h3>
         <p>This table contents all main dates of Lienish history. You can find some another news <a
@@ -151,11 +162,11 @@ li.dropdown {
             </tr>
             <tr>
                 <td>October, 25th</td>
-                <td>Mikhail wrote constitution and act of independence, drew flag and invented language.</td>
+                <td>Mićaöl wrote constitution and act of independence, drew flag and invented language.</td>
             </tr>
             <tr>
                 <td>December, 6th</td>
-                <td>Mikhail begun create Lienish official site.</td>
+                <td>Mićaöl begun create Lienish official site (yes, this one, which you're reading!).</td>
             </tr>
             <tr>
                 <td>December, 27th</td>
@@ -176,7 +187,15 @@ li.dropdown {
             </tr>
             <tr>
                 <td>February, 12th</td>
-                <td>Lienia begun create its very own MicroWiki page!</td>
+                <td>Lienia begun create its very own MicroWiki page.</td>
+            </tr>
+            <tr>
+                <td>February, 24th</td>
+                <td>Lienia begin its "West Travel".</td>
+            </tr>
+            <tr>
+                <td>March, 9th</td>
+                <td>Lienia ended West Travel in Germany.</td>
             </tr>
         </table>
     </div>
