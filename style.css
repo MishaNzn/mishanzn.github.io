@@ -4,6 +4,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: arial;
+  font-size: 125%
 }
 #header {
   width: 100%;
@@ -16,7 +17,6 @@ body {
 a {
   color: #a349a4;
 }
-
 #header h1 {
   padding-top: 30px;
   font-weight: normal;
@@ -51,14 +51,16 @@ a {
   padding-top: 3px;
   padding-left: 10px;
   padding-bottom: 5px;
-  font-size: 75%;
+  font-size: 65%;
+  text-align: left;
+  float: left;
   color: #000000;
   width: 12%;
   border-left: 3px solid #ffc90e;
 }
 #footer:hover {
   color: #a349a4;
-  font-size: 90%;
+  font-size: 70%;
   cursor: default;
 }
 #table, td{
@@ -86,7 +88,6 @@ table, th, td {
   width: 75%;
   color: #000000;
   font-size: 100%;
-  border-right: 10px solid #ffc90e;
 }
 h1, h2, h3 {
   margin-top: 0;
