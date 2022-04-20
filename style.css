@@ -46,6 +46,7 @@ a {
   font-size: 125%;
   padding-top: 35px;
   color: #ffffff;
+  position: sticky;
 }
 #footer {
   padding-top: 3px;
