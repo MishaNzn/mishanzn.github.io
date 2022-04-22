@@ -54,7 +54,35 @@ li.dropdown {
 .dropdown-content a:hover {
   background-color: #f399f4;
 }
-
+input[type=text], select, textarea {
+  width: 15%;
+  padding: 12px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #a349a4;
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor:pointer;
+}
+input[type=submit]:hover {
+  background-color: #ffffff;
+  border: 2px solid #a349a4;
+  color: #a349a4;
+  padding: 14px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor:pointer;
+}
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -127,18 +155,13 @@ li.dropdown {
     <h3 style="color:red">Warning</h3>
     <h4 style="color:red">This form isn't finished, so don't try to register now - it just doesn't work.</h4>
     <form>
-        <label for="password">Enter password:</label>
         <br>
-        <input type="text" id="password" name="password" required="required">
-        <br>
-        <br>
-        <label for="responsible">I understand, Lienish government isn't responsible for safety <br>of authorizing, but it
-            does everything possible to make this <br>service safe, useful and comfortable.</label>
-        <br>
-        <input type="checkbox" id="responsible" name="responsible" required="required">
+        <input type="text" id="password" name="password" required="required" placeholder="Enter Password">
         <br>
         <br>
-        <input type="submit" id="authorize" name="authorize" value="Authorize">
+        <div id="button">
+            <input type="submit" id="authorize" name="authorize" value="Authorize">
+        </div>
     </form>
             <br>
     <img src="standwithukraine.jpg" alt="#StandWithUkraine" width=300 height=200 border=0>

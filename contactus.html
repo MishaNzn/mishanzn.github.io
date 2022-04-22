@@ -59,6 +59,50 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+input[type=text], select, textarea {
+  width: 15%;
+  padding: 12px;
+  transition: width 0.4s ease-in-out;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  resize: vertical;
+}
+input[type=text]:focus {
+  width: 25%;
+}
+input[type=submit] {
+  background-color: #a349a4;
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor:pointer;
+}
+input[type=submit] {
+  background-color: #a349a4;
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor:pointer;
+}
+input[type=submit]:hover {
+  background-color: #ffffff;
+  border: 2px solid #a349a4;
+  color: #a349a4;
+  padding: 14px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor:pointer;
+}
 
 
     </style>
@@ -138,11 +182,36 @@ li.dropdown {
         <tr>
             <td>Problems with website</td>
             <td>Minister of IT</td>
-            <td>xxxxxxxxx@gmail.com</td>
+            <td>hi-d31aed7e@nevezhyn.com</td>
         </tr>
         </tbody>
     </table>
             <br>
+            <form>
+        <br>
+        <input type="text" id="name" name="name" placeholder="Your name">
+        <br>
+        <br>
+        <input type="text" id="email" name="email" required="required" placeholder="Your email">
+        <br>
+        <br>
+        <select style="width:20%" id="theme" name="theme" required="required">
+            <option value="-">-</option>
+        <option value="diplomacy">Diplomatic requests</option>
+        <option value="problems">Problems with website</option>
+        <option value="questions">General Questions</option>
+      </select>
+                <br><br>
+                <label for="message" style="size:80%">Your message:</label>
+                <br>
+                <br>
+        <textarea style="font-family:arial; color:#888" id="message" name="message" maxlength="256" required="required" rows="10" cols="100"></textarea>
+        <br><br>
+                <div id="button">
+            <input type="submit" id="submit" name="submit" value="Submit">
+                    <br><br>
+        </div>
+    </form>
     <img src="standwithukraine.jpg" alt="#StandWithUkraine" width=300 height=200 border=0>
     <p>Back to Lienish <a href="http://lienia.com">main page</a>!</p>
 </div>

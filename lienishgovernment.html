@@ -54,8 +54,39 @@ li.dropdown {
 .dropdown-content a:hover {
   background-color: #f399f4;
 }
-
-
+input[type=text], select, textarea {
+  width: 15%;
+  padding: 12px;
+  transition: width 0.4s ease-in-out;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  resize: vertical;
+}
+input[type=text]:focus {
+  width: 25%;
+}
+input[type=submit] {
+  background-color: #a349a4;
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor:pointer;
+}
+input[type=submit]:hover {
+  background-color: #ffffff;
+  border: 2px solid #a349a4;
+  color: #a349a4;
+  padding: 14px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor:pointer;
+}
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -145,6 +176,24 @@ li.dropdown {
             "Micronational Foreign Affairs" as theme. Our conditions: your nation exists 6 months or longer; your
             political system is democracy, or constitutional monarchy; your nation keeps basic human rights; you are a
             person who <i>really has to/can</i> mail letters like that (Minister of Foreign Affairs, President, King etc.).</p>
+        <br>
+        <p>You can use form below to contact us:</p>
+        <form>
+        <br>
+        <input type="text" id="name" name="name" required="required" placeholder="Enter name of country">
+        <br>
+        <br>
+        <input type="text" id="email" name="email" required="required" placeholder="Enter your email">
+        <br>
+        <br>
+        <input type="text" id="site" name="site" placeholder="Enter URL of your website">
+        <br><br>
+            <input type="text" id="site" name="site" placeholder="Commentary (not required)">
+        <br><br>
+                <div id="button">
+            <input type="submit" id="submit" name="submit" value="Submit">
+        </div>
+    </form>
     </div>
             <br>
     <img src="standwithukraine.jpg" alt="#StandWithUkraine" width=300 height=200 border=0>
